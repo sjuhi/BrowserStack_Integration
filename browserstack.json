@@ -1,0 +1,35 @@
+{
+    "auth": {
+        "username": "juhisingh_mwaGOH",
+        "access_key": "oEkBwa33xqHFqafHDJP1"
+    },
+"browsers": [{
+    "browser": "chrome",
+    "os": "Windows 10",
+    "versions": ["latest", "latest - 1"]
+  },
+  {
+    "browser": "firefox",
+    "os": "OS X Mojave",
+    "versions": ["latest"]
+  },
+  {
+    "browser": "edge",
+    "os": "OS X Catalina",
+    "versions": ["latest - 1"]
+  }
+],
+"run_settings": {
+    "cypress_config_file": "./cypress.config.js",
+    "cypress_version": "10.0.0",
+    "npm_dependencies": {
+        "cypress": "^10.0.0"
+      },
+    "project_name": "Browserstack demo app",
+    "build_name": "Demo1",
+    "parallels": "3"
+}, 
+"connection_settings": {
+    "local": false
+}
+}
