@@ -16,7 +16,7 @@ The BrowserStack - Cypress CLI is a command-line tool that is used to enable com
 npm install -g browserstack-cypress-cli
 #### Create cypress test project under the folder "cypress/e2e". 
 Once you have installed the BrowserStack CLI on your computer, create a Cypress project like you usually do. Get the sample Cypress tests generated. We are going to run those sample tests on BrowserStack! I have created a basic cypress test automation setup using BrowserStack Demo App covering 3 use cases (Login, Check out the Product & log out) to perform cross browser testing with Cypress & BrowserStack. 
-If you don’t have access to an existing Cypress project, you can try running your first test using the Cypress Kitchen Sink web app.
+If you don’t have access to an existing Cypress project, you can try [running your first test](https://www.browserstack.com/docs/automate/cypress) using the Cypress Kitchen Sink web app.
 #### Generate the BrowserStack configuration file for your project:
 Navigate into your Cypress project folder and run the following command to generate the BrowserStack configuration file for your project. It will generate a sample configuration file.Modify or add the mandatory configurations that are required to run your Cypress test.
 browserstack-cypress init
