@@ -10,7 +10,7 @@ The Sample test in this repository demonstrate the cross browser testing with Br
 3. [Node.js](https://nodejs.org/en/download/) installed on your machine.
 5. [NPM](https://docs.npmjs.com/) installed on your machine.
 
-### run your first Cypress test with BrowserStack
+### Run your first Cypress test with BrowserStack
 #### Install the BrowserStack CLI. 
 The BrowserStack - Cypress CLI is a command-line tool that is used to enable communication between Cypress and BrowserStack. Use the npm command to install the BrowserStack - Cypress CLI as follows:
 npm install -g browserstack-cypress-cli
